@@ -137,7 +137,8 @@ def main():
     averesults = averagmatrix(results[0])
     
     plt.plot([l['profit'] for l in averesults])
-    plt.show()
+    plt.savefig("./result.png")
+    #plt.show()
 
 
 if __name__ == '__main__':
