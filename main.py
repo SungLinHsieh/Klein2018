@@ -1,8 +1,10 @@
 import numpy as np
 import argparse
-import matplotlib.pyplot as plt
 import copy
 import statistics
+import matplotlib
+matplotlib.use('agg')
+import matplotlib.pyplot as plt
 
 class Q_Player:
     def __init__(self, max_price, alpha, delta, epsilon, theta):
